@@ -2,13 +2,13 @@
 #include<stdlib.h>
 
 
-void add_end(int);
+void add_end(int); /*LOCAL*/
 struct node{
   int data;
   struct node *next; 
 };
 
-struct node *start = NULL; 
+struct node *start = NULL; /*GLOBAL*/
 int main(){ 
 struct node *newnode;
 newnode=(struct node*) malloc(sizeof(struct node));
