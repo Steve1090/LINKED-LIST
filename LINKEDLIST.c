@@ -25,7 +25,7 @@ void add_end(int info){
     temp = start; 
     newnode= (struct node*) malloc (sizeof (struct node));
     newnode -> data= info;
-    newnode -> next= NULL;
+    newnode -> next= NULL; /*CAN CHANGE THIS TO *START* FOR CIRCULAR*/
     while (temp->next!=NULL)
     temp = temp-> next;
     temp-> next= newnode; 
