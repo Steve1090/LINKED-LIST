@@ -28,3 +28,6 @@ k.Inside the display function, declare a pointer of the structure node, temp and
 l. Traverse through the linked list until the last node and print its data, self address, and next address.
 
 m. End the program.
+
+
+![LINKEDLIST](https://user-images.githubusercontent.com/108262513/230788969-5a0e46a9-dba4-4725-a57d-83a2bc8ee75c.png)
